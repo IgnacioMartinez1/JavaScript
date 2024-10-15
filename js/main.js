@@ -24,7 +24,7 @@ function mostrarMenu() {
 function tomarPedido() {
     let continuar = true;
     while (continuar) {
-        let seleccion = prompt("Selecciona el número del ítem que deseas agregar a tu pedido (1-4) o escribe '0' para finalizar:");
+        let seleccion = prompt("Selecciona el número del ítem que deseas agregar a tu pedido (1-10) o escribe '0' para finalizar:");
         if (seleccion === '0') {
             continuar = false;
         } else {
