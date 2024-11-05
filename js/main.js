@@ -1,16 +1,16 @@
 const menu = [
-    { nombre: "Latte", precio: 5500, imagen: "images/latte.jpg" },
-    { nombre: "Mocca", precio: 4900, imagen: "images/mocca.jpeg" },
-    { nombre: "Café con leche", precio: 5000, imagen: "images/cafe-con-leche.jpg" },
-    { nombre: "Espresso", precio: 5500, imagen: "images/espresso.jpg" },
-    { nombre: "Ristretto", precio: 5500, imagen: "images/ristretto.jpg" },
-    { nombre: "Americano", precio: 5500, imagen: "images/americano.jpg" },
-    { nombre: "Cappuccino", precio: 4400, imagen: "images/cappuccino.jpg" },
-    { nombre: "Tostado", precio: 3600, imagen: "images/tostado.jpg" },
-    { nombre: "Chocotorta", precio: 7600, imagen: "images/chocotorta.png" },
-    { nombre: "Crumbl Cookie", precio: 2500, imagen: "images/crumbl-cookie.jpg" },
-    { nombre: "Chipa", precio: 600, imagen: "images/chipa.jpg" },
-    { nombre: "Dona", precio: 3500, imagen: "images/dona.jpg" },
+    { nombre: "Latte", precio: 5500, imagen: "./images/latte.jpg" },
+    { nombre: "Mocca", precio: 4900, imagen: "./images/mocca.jpeg" },
+    { nombre: "Café con leche", precio: 5000, imagen: "./images/cafe-con-leche.jpg" },
+    { nombre: "Espresso", precio: 5500, imagen: "./images/espresso.jpg" },
+    { nombre: "Ristretto", precio: 5500, imagen: "./images/ristretto.jpg" },
+    { nombre: "Americano", precio: 5500, imagen: "./images/americano.jpg" },
+    { nombre: "Cappuccino", precio: 4400, imagen: "./images/cappuccino.jpg" },
+    { nombre: "Tostado", precio: 3600, imagen: "./images/tostado.jpg" },
+    { nombre: "Chocotorta", precio: 7600, imagen: "./images/chocotorta.png" },
+    { nombre: "Crumbl Cookie", precio: 2500, imagen: "./images/crumbl-cookie.jpg" },
+    { nombre: "Chipa", precio: 600, imagen: "./images/chipa.jpg" },
+    { nombre: "Dona", precio: 3500, imagen: "./images/dona.jpg" },
 ];
 
 // let pedido = [];
