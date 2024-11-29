@@ -1,21 +1,46 @@
-* {
-    background-color: black;
+body {
+    background-image: url(./images/pastry-sweet-bakery-seamless-pattern-600nw-2143884193.webp);
+}
+
+header {
+    background-color: #AB886D;
+    font-family: "Montserrat", sans-serif;
 }
 
 .cont-logo {
     width: 100px;
 }
 
+.carousel-prod {
+    width: 400px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-family: "Montserrat" sans-serif;
+    font-size: 60px;
+
+}
 .menulist {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 100px;
-    margin-right: 100px;
-    color: white;
+    justify-items: center;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+.menulist div h2 {
+
+    background-color: #fcebd7;
+}
+.menulist div p {
+    font-size: larger;
+    background-color: #fcebd7;
 }
 
 .boton-agregar {
-    background-color: white;
+    background-color: #96CEB4;
     color: black;
     padding: 8px 16px;
     border: none;
@@ -26,7 +51,7 @@
 
 
 .boton-agregar:hover {
-    background-color: #FF4500;
+    background-color: #FFEEAD;
     transform: scale(1.1);
 }
 
@@ -39,10 +64,10 @@
 }
 
 .carrito {
-    background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Montserrat", sans-serif;
 }
 
 .productos-carrito {
@@ -55,7 +80,6 @@
     justify-content: space-between;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #f8f8f8;
     border-radius: 5px;
 }
 
@@ -75,12 +99,12 @@ button.eliminar:hover {
 }
 
 .carrito {
-    background: #fff;
     border: none;
-    padding: 2px;
-    margin: 2px;
-    max-width: 500px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .carrito h3 {
@@ -91,14 +115,15 @@ button.eliminar:hover {
     font-weight: bold;
     margin-top: 1rem;
 }
+
 .carrito li {
-    border: 5px solid black;
+    background-color: #FFEEAD;
+    border: 2px solid black;
     border-radius: 10px;
 }
 
 .carrito .boton-eliminar {
     background-color: #dc3545;
-    color: #fff;
     border: none;
     cursor: pointer;
     margin-left: 0.5rem;
@@ -108,6 +133,28 @@ button.eliminar:hover {
 .carrito .boton-eliminar:hover {
     background-color: #c82333;
 }
+
 .total {
+    color: black;
+
+}
+
+.whatsapp {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #25D366;
     color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.instagram {
+    background-color: #FFAD60;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
 }

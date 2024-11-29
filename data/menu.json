@@ -1,0 +1,9 @@
+[
+    { "nombre": "Mini Torta", "precio": 3200 },
+    { "nombre": "Torta personalizada", "precio": 6000 },
+    { "nombre": "Macarons", "precio": 1200 },
+    { "nombre": "Cupcakes", "precio": 900 },
+    { "nombre": "Alfajores", "precio": 800 },
+    { "nombre": "Crumbl Cookie", "precio": 2500 },
+    { "nombre": "Mini dona", "precio": 600 }
+]
