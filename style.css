@@ -127,11 +127,24 @@ button.eliminar:hover {
     border: none;
     cursor: pointer;
     margin-left: 0.5rem;
-    border-radius: 5px;
+    border-radius: 10px;
+    height: 25px;
 }
 
 .carrito .boton-eliminar:hover {
     background-color: #c82333;
+}
+.boton-mas {
+    margin-left: 10px;
+    background-color: #ffe580;
+    border-radius: 10px;
+    height: 25px;
+}
+.boton-menos {
+    margin-left: 10px;
+    background-color: #ffe580;
+    border-radius: 10px;
+    height: 25px;
 }
 
 .total {

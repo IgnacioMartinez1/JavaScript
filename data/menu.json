@@ -1,9 +1,37 @@
 [
-    { "nombre": "Mini Torta", "precio": 3200 },
-    { "nombre": "Torta personalizada", "precio": 6000 },
-    { "nombre": "Macarons", "precio": 1200 },
-    { "nombre": "Cupcakes", "precio": 900 },
-    { "nombre": "Alfajores", "precio": 800 },
-    { "nombre": "Crumbl Cookie", "precio": 2500 },
-    { "nombre": "Mini dona", "precio": 600 }
+    {
+        "id": 1,
+        "nombre": "Mini Torta",
+        "precio": 3200
+    },
+    {
+        "id": 2,
+        "nombre": "Torta personalizada",
+        "precio": 6000
+    },
+    {
+        "id": 3,
+        "nombre": "Macaron",
+        "precio": 1200
+    },
+    {
+        "id": 4,
+        "nombre": "Cupcake",
+        "precio": 900
+    },
+    {
+        "id": 5,
+        "nombre": "Alfajor",
+        "precio": 800
+    },
+    {
+        "id": 6,
+        "nombre": "Crumbl Cookie",
+        "precio": 2500
+    },
+    {
+        "id": 7,
+        "nombre": "Mini dona",
+        "precio": 600
+    }
 ]
